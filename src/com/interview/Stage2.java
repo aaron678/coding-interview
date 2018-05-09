@@ -16,7 +16,7 @@ public class Stage2 {
         Integer currentCount = 0;
 
         for (Integer i: l){
-            if (currentInt == i){
+            if (i == currentInt){
                 currentCount += 1;
             } else {
                 if(mostFrequentCount<currentCount){
